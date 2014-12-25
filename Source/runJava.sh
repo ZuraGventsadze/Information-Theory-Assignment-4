@@ -53,6 +53,6 @@ cat "${partlistpath}partList" | while read line; do
 	fi
 done
 
-if [ -n $errorList ]; then
+if [ -n "$errorList" ]; then
 	exit 1
 fi
