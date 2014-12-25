@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - oraclejdk7
+
+install:
+  - javac Source/*.java
+
+script:
+  - cd Source
+  - ./runJava.sh
