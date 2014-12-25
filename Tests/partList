@@ -1,0 +1,15 @@
+A/ ParityCheck checkParity.py
+dat out
+ans dat out
+B/ Encode checkSequence.py
+pol dat out
+ans out
+C/ Decode checkSequence.py
+pol dat out
+ans out
+D/ MinimalPolynomial checkPolynomial.py
+dat pwr out
+ans out
+E/ BCH checkPolynomial.py
+dat dst out
+ans out
