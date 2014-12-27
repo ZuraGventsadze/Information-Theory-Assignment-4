@@ -6,8 +6,8 @@ ansFile = open(argv[1])
 datFile = open(argv[2])
 outFile = open(argv[3])
 
-isParity = ansFile.readline()
-isParity_ = outFile.readline()
+isParity = ansFile.readline().strip()
+isParity_ = outFile.readline().strip()
 
 if isParity != isParity_:
 	print 'Wrong answer'
